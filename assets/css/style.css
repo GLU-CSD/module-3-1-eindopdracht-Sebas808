@@ -18,7 +18,7 @@ justify-content: center;
 header{
 
   background: grey;
-  height: 100px;
+  height: 120px;
   padding: 10px
 }
 
@@ -30,7 +30,10 @@ header{
 
   border-style: solid;
   border-width: 2px;
+  
 }
+
+
 
 .bovenbalk .menurechts{
 
@@ -47,6 +50,12 @@ align-items: flex-start;
 
 }
 
+#cars{
+
+  width: 200px;
+  height: 35px;
+}
+
 .onderbalk{
   background-color: rgb(255, 255, 255);
   display:flex;
@@ -57,22 +66,40 @@ align-items: flex-start;
 }
 
 
+.onderbalk .menurechts1{
+  display: flex;
+  align-items: flex-start;
+  
+    padding: 10px;
+
+
+}
 main{
 
   display: flex;
   flex-direction: row;
   
-background: rgb(222, 131, 131)
+background: rgb(155, 140, 140)
 
 
 }
 
-
+.product{
+  width: 180px;
+  background-color: white;
+  border-radius: 20px;
+  margin:6px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+}
 
 
 footer{
 height: 100px;
-background:black
+background:black;
+color: white;
+
 }
 
 #filter{
