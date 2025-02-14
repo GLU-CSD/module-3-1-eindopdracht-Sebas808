@@ -82,6 +82,13 @@ main{
 background: rgb(155, 140, 140)
 
 
+
+}
+
+.products{
+  display: flex;
+  flex-direction: row;
+
 }
 
 .product{
@@ -92,9 +99,37 @@ background: rgb(155, 140, 140)
   padding:10px;
   display: flex;
   flex-direction: column;
+  
+}
+.onderp1{
+
+display: flex;
+flex-direction:row;
+justify-content:space-between;
+
+}
+
+.onderlinksp1{
+
+width: 100px;
+height: 100px;
+
+}
+.productnaam1{
+
+  font-size: 15px;
+  padding: 10px;
 }
 
 
+
+
+.onderrechtsp1{
+
+  
+  height: 50px;
+  width: 30px
+}
 footer{
 height: 100px;
 background:black;
