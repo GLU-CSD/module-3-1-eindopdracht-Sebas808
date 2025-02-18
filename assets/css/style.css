@@ -74,6 +74,14 @@ align-items: flex-start;
 
 
 }
+
+
+
+.menulinks1{
+
+width: 100px;
+height: 100px;
+}
 main{
 
   display: flex;
@@ -88,7 +96,8 @@ background: rgb(155, 140, 140)
 .products{
   display: flex;
   flex-direction: row;
-
+  flex-wrap: wrap;
+  padding: 10px;
 }
 
 .product{
@@ -100,6 +109,43 @@ background: rgb(155, 140, 140)
   display: flex;
   flex-direction: column;
   
+}
+
+.product1{
+  width: 170px;
+  height: 240px;
+  background-color: white;
+  border-radius: 20px;
+  margin:6px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.product2{
+  width: 170px;
+  height: 240px;
+  background-color: white;
+  border-radius: 20px;
+  margin:6px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+}
+.product3{
+  width: 170px;
+  height: 240px;
+  background-color: white;
+  border-radius: 20px;
+  margin:6px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+
+}
+.product5{
+margin-top: 20px;
+height: 250px;
 }
 .onderp1{
 
@@ -131,15 +177,32 @@ height: 100px;
   width: 30px
 }
 footer{
-height: 100px;
-background:black;
-color: white;
+height: 250px;
+border-style: solid;
+border-width: 2px;
+
 
 }
+.footerboven{
 
+height: 200px;
+}
+
+.footeronder{
+
+height: 43px;
+display: flex;
+align-items: center;
+color: black;
+border-style: solid;
+  border-width: 5px;
+}
 #filter{
-
-  background: blue;
+  border-style: solid;
+  border-width: 5px;
+ 
   display: inline;
-  
+  width: 400px;
+  background: rgb(155, 140, 140)
+ 
 }
