@@ -51,13 +51,21 @@
       <!-- onderbalk van de header van de site -->
       <div class="onderbalk">
         <div class="menulinks1">
-          <img src="logo.svg" alt="menulinks1" />
+          <img src="assets/img/mainlogo.png"alt="menulinks1" class="logomeneuboven" />
         </div>
         <div class="menurechts1">
-          <div class="menurechts1" >search</div>
+          <div class="wrap">
+            <div class="search">
+               <input type="text" class="searchTerm" placeholder="What are you looking for?">
+               <button type="submit" class="searchButton">
+                 <i class="fa fa-search"></i>
+              </button>
+            </div>
+         </div>
           <div class="menurechts1">vergelijk</div>
           <a href="index2.html">
             <img src="happy.svg" alt="menurechts1" />
+            <div id="winkelmandItems">0</div>
           </a>
         </div>
       </div>
@@ -66,7 +74,12 @@
 
       <!-- site filters-->
       <div id="filter">
-      
+        <div id="slidebar">
+          <div id="slider">
+            <input type="range" min="1" max="100" value="50">
+          </div>
+        </div>
+
       </div>
 
       <!-- producten/verkoopitems van de site-->
@@ -80,7 +93,7 @@
 
             </div>
             <div class="onderrechtsp1">
-              <img src="add.svg" alt="onderrechtsp1" />
+              <img src="add.svg"  onclick="winkelWagenAdd()" alt="onderrechtsp1" />
             </div>
           </div>
         </div>
@@ -93,7 +106,7 @@
 
             </div>
             <div class="onderrechtsp1">
-              <img src="add.svg" alt="onderrechtsp1" />
+              <img src="add.svg" onclick="winkelWagenAdd()" alt="onderrechtsp1" />
             </div>
           </div>
         </div>
@@ -106,7 +119,7 @@
 
             </div>
             <div class="onderrechtsp1">
-              <img src="add.svg" alt="onderrechtsp1" />
+              <img src="add.svg" onclick="winkelWagenAdd()" alt="onderrechtsp1" />
             </div>
           </div>
         </div>
@@ -120,13 +133,14 @@
 
             </div>
             <div class="onderrechtsp1">
-              <img src="add.svg" alt="onderrechtsp1" />
+              <img src="add.svg" onclick="winkelWagenAdd()" alt="onderrechtsp1" />
             </div>
           </div>
         </div>
 
         <div class="product">
-          <img src="assets/img/0729-1_a45d4cf2-2aa6-4808-8ac5-6aecd282adac_1800x.webp" alt="product1" class="product4" />
+          <img src="assets/img/0729-1_a45d4cf2-2aa6-4808-8ac5-6aecd282adac_1800x.webp" alt="product1"
+            class="product4" />
           <div class="onderp1">
             <div class="onderlinksp1">
               <div class="productnaam1">nofaithstudios zip-up</div>
@@ -134,7 +148,7 @@
 
             </div>
             <div class="onderrechtsp1">
-              <img src="add.svg" alt="onderrechtsp1" />
+              <img src="add.svg" onclick="winkelWagenAdd()" alt="onderrechtsp1" />
             </div>
           </div>
         </div>
@@ -148,7 +162,7 @@
 
             </div>
             <div class="onderrechtsp1">
-              <img src="add.svg" alt="onderrechtsp1" />
+              <img src="add.svg" onclick="winkelWagenAdd()" alt="onderrechtsp1" />
             </div>
           </div>
         </div>
@@ -161,7 +175,7 @@
 
             </div>
             <div class="onderrechtsp1">
-              <img src="add.svg" alt="onderrechtsp1" />
+              <img src="add.svg" onclick="winkelWagenAdd()" alt="onderrechtsp1" />
             </div>
           </div>
         </div>
@@ -174,7 +188,7 @@
 
             </div>
             <div class="onderrechtsp1">
-              <img src="add.svg" alt="onderrechtsp1" />
+              <img src="add.svg" onclick="winkelWagenAdd()" alt="onderrechtsp1" />
             </div>
           </div>
         </div>
@@ -187,7 +201,7 @@
 
             </div>
             <div class="onderrechtsp1">
-              <img src="add.svg" alt="onderrechtsp1" />
+              <img src="add.svg" onclick="winkelWagenAdd()" alt="onderrechtsp1" />
             </div>
           </div>
         </div>
@@ -197,13 +211,53 @@
       </div>
     </main>
     <!-- footer/copyright en info site-->
-    <footer> 
+    <footer>
       <div class="footerboven">
-
+        <div class="over_ons_vak">
+          <div class="over_ons_boven">
+            <div class="over_ons_text"> Over ons:</div>
+          </div>
+          <div class="over_ons_onder">
+            <ul class="a">
+              <li><a href="">over ons</a></li>
+              <li><a href="">contactinformatie</a></li>
+              <li><a href="">algemenenvoorwaarden</a></li>
+              <li><a href="">privacy beleid</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="middenstreepfooter">|</div>
+        <div class="klantenservice_vak">
+          <div class="over_ons_boven">
+            <div class="over_ons_text"> klantenservice:</div>
+          </div>
+          <div class="over_ons_onder"> 
+            <ul class="a">
+              <li><a href="">levering</a></li>
+              <li><a href="">wachtwoord vergeten</a></li>
+              <li><a href="">veilige betalen</a></li>
+              <li><a href="">annuleren, retourneren, ruilen</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="middenstreepfooter">|</div>
+        <div class="leveringskosten_vak">
+          <div class="over_ons_boven">
+            <div class="over_ons_text"> leveringskosten:</a></div>
+          </div>
+          <div class="over_ons_onder">
+            <ul class="a">
+              <li><a href="">transport tarieven</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        <div id="middenstreepfooter">|</div>
+        <img src="assets/img/mainlogo.png">
       </div>
-    <div class="footeronder">
-      webshop door Sebastiaan Kuper
-    </div>
+      <div class="footeronder">
+        webshop door Sebastiaan Kuper
+      </div>
     </footer>
 
     <script src="assets/js/app.js"></script>

@@ -12,19 +12,19 @@ justify-content: center;
 
 #container{
 
-  width: 1000px;
+ 
 
 }
 header{
 
-  background: grey;
+  background: rgb(0, 0, 0);
   height: 120px;
-  padding: 10px
+  padding: 0px
 }
 
 .bovenbalk{
 
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(194, 162, 162);
   display:flex;
   justify-content: space-between;
 
@@ -41,23 +41,70 @@ display: flex;
 align-items: flex-start;
 
   padding: 10px;
+  font-size: 20px;
 }
 .bovenbalk .menulinks{
   display: flex;
   align-items: flex-start;
   
     padding: 10px;
-
+    font-size: 15px;
 }
 
 #cars{
 
   width: 200px;
-  height: 35px;
+  height: 41px;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #000000;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #000000;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #000000;
+  background: #393838;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#winkelmandItems{
+
+margin-left: 32px;
+margin-top: -19px;
 }
 
 .onderbalk{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(134, 120, 120);
   display:flex;
   justify-content: space-between;
 
@@ -71,8 +118,9 @@ align-items: flex-start;
   align-items: flex-start;
   
     padding: 10px;
+    margin-right: 50px;
 
-
+    font-size: 20px;
 }
 
 
@@ -82,12 +130,18 @@ align-items: flex-start;
 width: 100px;
 height: 100px;
 }
+
+.logomeneuboven{
+margin-top: -17px;
+  width: 100px;
+  height: 88px;
+}
 main{
 
   display: flex;
   flex-direction: row;
   
-background: rgb(155, 140, 140)
+background: rgb(56, 53, 53)
 
 
 
@@ -101,7 +155,7 @@ background: rgb(155, 140, 140)
 }
 
 .product{
-  width: 180px;
+  width: 210px;
   background-color: white;
   border-radius: 20px;
   margin:6px;
@@ -142,6 +196,19 @@ background: rgb(155, 140, 140)
   display: flex;
   flex-direction: column;
 
+}
+.product4{
+  
+    width: 170px;
+    height: 240px;
+    background-color: white;
+    border-radius: 20px;
+    margin:6px;
+    margin-left: 20px;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+  
 }
 .product5{
 margin-top: 20px;
@@ -184,8 +251,11 @@ border-width: 2px;
 
 }
 .footerboven{
-
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:space-evenly;
 height: 200px;
+
 }
 
 .footeronder{
@@ -203,6 +273,75 @@ border-style: solid;
  
   display: inline;
   width: 400px;
-  background: rgb(155, 140, 140)
+  background: rgb(56, 53, 53)
  
+}
+#slidebar{
+
+
+margin-top: 50px;
+height: 180px;
+  background-color: blue;
+}
+
+
+#slider{
+
+margin-top: 50px;
+background-color: antiquewhite;
+}
+
+.over_ons_vak{
+  
+ 
+margin-top: 15px;
+width: 200px;
+height: 165px;
+ 
+}
+
+.klantenservice_vak{
+  margin-top: 15px;
+ 
+  width: 200px;
+  height: 165px;
+
+
+}
+.leveringskosten_vak{
+
+  margin-top: 15px;
+ 
+  width: 200px;
+  height: 165px;
+
+}
+.over_ons_onder{
+
+height: 85px;
+margin-left: 20px;
+
+}
+.ul.a {
+  list-style-type: circle;
+}
+
+.over_ons_boven{
+margin-top: 40px;
+  display: flex;
+  justify-content: center;
+
+  width: 200px;
+  height: 40px;
+}
+.over_ons_text{
+
+font-size: 30px;
+
+
+}
+#middenstreepfooter{
+
+font-size: 160px;
+
 }
