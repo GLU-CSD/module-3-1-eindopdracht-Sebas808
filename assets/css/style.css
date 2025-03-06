@@ -214,6 +214,64 @@ background: rgb(56, 53, 53)
 margin-top: 20px;
 height: 250px;
 }
+.product11{
+
+  width: 170px;
+  height: 190px;
+  background-color: white;
+  border-radius: 20px;
+  margin:6px;
+  margin-left: 20px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+}
+.product13{
+  width: 170px;
+  height: 190px;
+  background-color: white;
+  border-radius: 20px;
+  margin:6px;
+  margin-left: 20px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+
+}
+.product14{
+  width: 170px;
+  height: 190px;
+  background-color: white;
+  border-radius: 20px;
+  margin:6px;
+  margin-left: 20px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+
+}
+.product15{
+  width: 170px;
+  height: 190px;
+  background-color: white;
+  border-radius: 20px;
+  margin:6px;
+  margin-left: 20px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+}
+.product17{
+  width: 170px;
+  height: 190px;
+  background-color: white;
+  border-radius: 20px;
+  margin:6px;
+  margin-left: 20px;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+}
 .onderp1{
 
 display: flex;
@@ -276,37 +334,41 @@ border-style: solid;
   background: rgb(56, 53, 53)
  
 }
-#slidebar{
 
+.categorieëenbox{
+  margin-right: 10px;
+  margin-top: 40px;
+ margin-left: 10px;
+background-color: aliceblue;
+width: 180px;
+height: 170px;
+border-radius: 20px;
+box-shadow: 7px 7px;
 
-margin-top: 50px;
-height: 180px;
-  background-color: blue;
 }
+.categorieëenboxtext{
+
+margin-left: 17px;
 
 
-#slider{
-
-margin-top: 50px;
-background-color: antiquewhite;
 }
-
-.over_ons_vak{
+.catboxboven{
+  font-size: 20px;
+  width: 170px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
   
- 
+}
+.over_ons_vak{
 margin-top: 15px;
 width: 200px;
 height: 165px;
- 
 }
-
 .klantenservice_vak{
   margin-top: 15px;
- 
   width: 200px;
   height: 165px;
-
-
 }
 .leveringskosten_vak{
 
