@@ -24,7 +24,7 @@ header{
 
 .bovenbalk{
 
-  background-color: rgb(194, 162, 162);
+  background-color: rgb(87, 83, 83);
   display:flex;
   justify-content: space-between;
 
@@ -104,7 +104,7 @@ margin-top: -19px;
 }
 
 .onderbalk{
-  background-color: rgb(134, 120, 120);
+  background-color: rgb(87, 83, 83);
   display:flex;
   justify-content: space-between;
 
@@ -305,7 +305,7 @@ footer{
 height: 250px;
 border-style: solid;
 border-width: 2px;
-
+background-color: #dddbd9;
 
 }
 .footerboven{
